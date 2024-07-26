@@ -1,0 +1,42 @@
+.movie-title {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    width: 129.25px;
+    height: 20.96px;
+    position: relative;
+    left: 22.12px;
+    gap: 0px;
+    opacity: 0px;
+    color:white
+}
+.movie-episode{
+    width: 129.25px;
+    height: 20.96px;
+    top: 170px;
+    left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    position: relative;
+    color: #FFFFFF;
+    background-color: transparent;
+
+}
+.Rectangle6 {
+    position: relative;
+    width: 170px;
+    height: 204.93px;
+    bottom: 226px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    background: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%);
+
+}

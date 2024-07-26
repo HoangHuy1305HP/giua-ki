@@ -1,0 +1,110 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container{
+  max-width:2000px;
+  width:1200px;
+  margin:0 auto;
+  background-color: #282c34;
+
+}
+* {
+  background-color: #282c34;
+}
+.content {
+  position:relative;
+  bottom: 270px;
+  background-color: transparent;
+  left:10px
+}
+
+.description{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  width: 571px;
+  height: 81px;
+  gap: 0px;
+  opacity: 0px;
+  color:white;
+  background-color: transparent;
+}
+.title {
+  position: relative;
+  bottom: 50px;
+  width: 571px;
+  height: 64px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: left;
+  color:white;
+  background-color: transparent;
+}
+.what {
+  color: #868686;
+  font:poppins;
+  font-weight:600;
+  font-size: 22px;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.new {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  width: 232px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+  bottom:100px;
+  color:white
+}
+.list{
+  display:flex;
+  gap:30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
